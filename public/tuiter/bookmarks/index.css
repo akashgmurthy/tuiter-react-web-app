@@ -1,0 +1,138 @@
+body{
+    background-color: black;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+a{
+    text-decoration: none;
+}
+.wd-title{
+    color:white;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.wd-user{
+    color: #5A6067;
+    font-size: 13px;
+    font-family: Arial;
+}
+.wd-top-5{
+    padding-top: 5px;
+}
+.wd-bottom-12{
+    padding-bottom: 12px;
+}
+.wd-top-10{
+    padding-top: 15px;
+}
+.wd-top-12{
+    padding-top: 12px;
+}
+
+.wd-blue{
+    color:dodgerblue !important;
+}
+.wd-main-text{
+    color:white;
+    font-family: Arial;
+    font-size: 15px;
+    width: 506px;
+    padding-right: 16px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+}
+.wd-ref-links{
+    width:22%;
+    float:left;
+    font-size: 15px;
+    margin-left: 12px;
+
+
+}
+.wd-active{
+    color:#e0255e;
+}
+.wd-right-12{
+    padding-right: 12px;
+}
+.wd-inactive{
+    color:#6d767d;
+}
+.wd-image{
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: gray solid 1px;
+    margin-left: 12px;
+}
+.wd-top-12{
+    padding-top: 12px;
+}
+.wd-image-text{
+    font-size: 15px;
+    font-family: arial;
+    color:rgb(110, 118, 125);
+    width:500px
+
+}
+.wd-right-5{
+    padding-right: 10px;
+}
+.wd-left-7{
+    padding-left:20px;
+}
+.wd-text-border{
+    border-bottom: rgb(47,51,54) solid 1px;
+    border-left: rgb(47,51,54) solid 1px;
+    border-right: rgb(47,51,54) solid 1px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width:485px;
+    margin-left: 12px;
+}
+.wd-bottom-10{
+    padding-bottom:10px;
+}
+.wd-image-title{
+    font-size: 15px;
+    color:white;
+    font-family: arial;
+    font-weight:bold;
+}
+.wd-author{
+    color:white;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 15px;
+}
+.wd-topic{
+    color:rgb(110, 118, 125);
+    font-size: 15px;
+    font-family: arial;
+}
+.wd-left-12{
+    padding-left: 12px;
+}
+.wd-left-3{
+    padding-left: 3px;
+}
+.wd-left-16{
+    padding-left: 16px;
+}
+.wd-inline{
+    display: inline-flex;
+}
+.wd-bottom-border{
+    border-bottom: rgb(47,51,54) solid 1px;
+}
+.rounded-corners-all-around {
+    border-radius: 50px;
+}
+.fa-ellipsis-h{
+    position:absolute;
+    right: 16px;
+    color: #5A6067;
+
+}
