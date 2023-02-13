@@ -27,7 +27,7 @@ a{
     color: #1d9bf0 !important;
 }
 .wd-content-border{
-    border:#8a8c8e solid 0.5px;
+    border:#989899 solid 0.1px;
 }
 .wd-pl-8{
     padding-left: 11px;
@@ -181,6 +181,7 @@ a{
 
 
 }
+
 .wd-inactive{
     color:#6d767d;
     padding:10px;
@@ -189,7 +190,8 @@ a{
     font-size:12px;
 }
 .wd-borders-left-right{
-    border-left: #8a8c8e thick;
+    border-left: #8a8c8e solid 0.5px;
+    border-right: #8a8c8e solid 0.5px;
 }
 .wd-mt15{
     margin-top:15px;
