@@ -59,6 +59,9 @@ body{
     color: white;
 
 }
+.wd-home-handle{
+    white-space:nowrap;
+}
 .wd-bold-wtf{
     font-weight: bold;
     color:white;
@@ -158,7 +161,7 @@ html, body {
 .wd-title{
     color: white;
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: arial;
     font-weight: bold;
     padding-top: 2px;
 }
@@ -166,7 +169,7 @@ html, body {
 .wd-handle{
     color: #5a6067;
     font-size: 13px;
-    font-family: sans-serif;
+    font-family: arial;
     padding-top: 2px;
 }
 
@@ -191,7 +194,7 @@ html, body {
 
 .wd-user{
     color: white;
-    font-family: sans-serif;
+    font-family: arial;
     font-size: 15px;
     font-weight: bold;
 }
@@ -199,7 +202,7 @@ html, body {
 .wd-user-handle{
     color: #5a6067;
     font-size: 15px;
-    font-family: sans-serif;
+    font-family: arial;
     padding-top: 2px;
 }
 
@@ -213,7 +216,7 @@ html, body {
     width: 506px;
     font-size: 15px;
     color: white;
-    font-family: sans-serif;
+    font-family: arial;
 }
 
 .wd-top{
@@ -228,7 +231,7 @@ html, body {
 
 }
 .wd-image-heading{
-    font-family: sans-serif;
+    font-family: arial;
     font-size: 15px;
     color: white;
     font-weight: bold;
@@ -239,7 +242,7 @@ html, body {
 }
 
 .wd-image-text{
-    font-family: sans-serif;
+    font-family: arial;
     font-size: 15px;
     color: #5a6067;
     width: 480px;
@@ -273,7 +276,7 @@ html, body {
     padding-left: 12px;
     color: #5a6067;
     font-size: 12px;
-    font-family: sans-serif;
+    font-family: arial;
 }
 
 a.wd-post-icon { text-decoration: none;
