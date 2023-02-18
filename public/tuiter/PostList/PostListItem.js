@@ -8,12 +8,12 @@ const PostListItem = (post) => {
     <i class="fas fa-ellipsis-h wd-post-ellipsis"></i>
 
     <div class="wd-content">
-    <div class ="wd-home-handle>
+    
     <span class="wd-user">
         ${post.userName}
     </span>
     <span><i class="fas fa-check-circle fa-xs wd-left-3"></i></span>
-    <span class="wd-user-handle">@${post.handle} &middot; ${post.time}</span></div>
+    <span class="wd-user-handle">@${post.handle} &middot; ${post.time}</span>
 <div class="wd-content-body">${post.title}
 </div >
         <div class="wd-image-content">
