@@ -285,10 +285,13 @@ a.wd-post-icon { text-decoration: none;
 .wd-heart{
     color: red;
 }
+.wd-pl-5{
+    margin-left: 50px;
+}
 
 .wd-post{
-    border-bottom: #2f3336 solid thin;
-   
+    border: #2f3336 solid thin;
+    border-left: #2f3336 solid thin;
     overflow: auto;
 }
 
