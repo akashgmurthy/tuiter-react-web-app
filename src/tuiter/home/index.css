@@ -1,0 +1,312 @@
+html, body {
+    
+    border-color: rgb(47, 51, 54);
+
+}
+
+.wd-heading{
+    padding-left: 16px;
+    padding-bottom: 12px;
+    border-bottom: rgb(47, 51, 54) solid thin;
+}
+
+.wd-title{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+.wd-handle{
+    color: #5a6067;
+    font-size: 13px;
+    font-family: sans-serif;
+    padding-top: 2px;
+}
+
+.wd-profile-image{
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+    float: left;
+}
+
+.wd-content{
+    float: left;
+}
+
+.wd-post{
+    padding-left: 16px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+
+}
+
+.wd-user{
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wd-user-handle{
+    color: #5a6067;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top: 2px;
+}
+
+.wd-post-ellipsis{
+    float: right;
+    margin-right: 16px;
+    color: #5a6067;
+}
+
+.wd-content-body{
+    width: 506px;
+    font-size: 15px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.wd-top{
+    color: #187bb6;
+}
+
+.wd-content-image{
+    width: 504px;
+    height: 264px;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+    
+    margin: 0px;
+
+}
+.wd-image-heading{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    padding: 12px 12px 12px 12px;
+    margin: 0px;
+    border-top: #5a6067 solid thin;
+
+}
+
+.wd-image-text{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #5a6067;
+    width: 480px;
+    padding: 0px 12px 12px 12px;
+    margin: 0px;
+
+}
+
+.wd-image-content{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    overflow: hidden;
+    width: 506px;
+    border-radius: 20px;
+    border: thin solid #AAB8C2;
+
+}
+
+.fa-link{
+    color: #2f3336;
+}
+
+.wd-icon{
+    float: left;
+    width: 25%;
+    padding-top: 12px;
+}
+.wd-red-text{
+    color:red !important;
+}
+
+.wd-icon-text{
+    padding-left: 12px;
+    color: #5a6067;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+a.wd-post-icon { text-decoration: none;
+    color: #5a6067}
+
+.wd-heart{
+    color: red;
+}
+.fa-heart{color:red;}
+
+.wd-post{
+    border-bottom: #AAB8C2 solid thin;
+    overflow: auto;
+}
+
+.fa-heart {
+    font-weight: lighter;
+}
+
+.fa-comment {
+    font-weight: lighter;
+}
+
+.fa-stack {
+    margin: 0;
+    padding: 0;
+}
+
+
+.fa-ellipsis-h {
+    margin: 0;
+    padding: 0;
+    font-size: 0.5em;
+    color: #AAB8C2;
+}
+
+.fa-circle {
+    margin: 0;
+    padding: 0;
+}
+
+.wd-stack-col {
+    padding-left: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+.wd-left-3{
+    padding: 3px;
+}
+.fa-check-circle{
+    color:#1e9bf0;
+}
+
+.wd-light-text {
+    color: #5a6067;
+}
+
+.wd-text {
+    font-size: small;
+}
+
+.wd-bold {
+    font-weight: bold;
+}
+
+.wd-post-image {
+    float: right;
+    border-radius: 20px;
+}
+
+.wd-avatar-image {
+    width: 48px;
+}
+
+.wd-border-radius-20px {
+    border-radius: 20px;
+}
+
+.wd-whats {
+    background-color: black;
+    border: none;
+    border-bottom: #2f3336 solid thin;
+    color: white;
+    width: 100%;
+}
+
+.wd-whats:focus {
+    border: none;
+}
+
+.wd-tweet {
+    float: right;
+    font-size: small;
+}
+
+.wd-whats-icon {
+    color: rgb(29, 161, 242);
+}
+
+.wd-edit-profile {
+    background-color: black;
+    border: gray solid thin;
+    float: right;
+    font-weight: bold;
+    color: white;
+}
+
+.wd-profile-save {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.profile-header {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 60px;
+}
+
+.edit-profile-header {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 70px;
+}
+.wd-profile-img {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    border: black solid medium;
+}
+
+.wd-profile-name {
+    font-weight: bold;
+    font-family: Tahoma;
+    font-size: 18px;
+    color: white;
+}
+
+.wd-profile-bio {
+    color: white;
+}
+
+.wd-follow-count {
+    color: white;
+    font-weight: bold;
+    font-family: Tahoma;
+}
+
+.wd-back {
+    font-weight: lighter
+}
+
+.form-control {
+    background-color: black;
+    color: white;
+    border: #2f3336 solid thin;
+}
+
+.form-control:focus {
+    background-color: black;
+    color: white;
+    border: rgb(29, 161, 242) solid thin;
+}
+
+.wd-website {
+    color: #1e9bf0;
+}
+
+#floatingTextarea {
+    height: 80px;
+}
+
