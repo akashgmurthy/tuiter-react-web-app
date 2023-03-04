@@ -7,6 +7,7 @@ const NavigationSidebar = () => {
     const paths = pathname.split('/')
     const active = paths[2];
     return (
+      // COMMENTLINK
       <div className="list-group">
         <a className="list-group-item">
           <div className = "wd-inline">
@@ -24,8 +25,6 @@ const NavigationSidebar = () => {
                          <i class="fas fa-hashtag wd-margin-right-3 wd-pt-4"></i>
           <div className="d-none d-xl-block">Explore</div></div>
         </Link>
-        
-        
         <a className={`list-group-item
                        ${active === 'notifications'?'active':''}`}>
                          <div className ="wd-inline">
