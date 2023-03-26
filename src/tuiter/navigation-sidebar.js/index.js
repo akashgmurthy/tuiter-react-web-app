@@ -49,12 +49,12 @@ const NavigationSidebar = () => {
                            <i class="fas fa-list wd-margin-right-3 wd-pt-4"></i>
                            <div class="d-none d-xl-block">Lists</div></div>
         </a>
-        <a className={`list-group-item
+        <Link to= "/tuiter/profile" className={`list-group-item
                        ${active === 'profile'?'active':''}`}>
                          <div className = "wd-inline">
                          <i class="fas fa-user wd-margin-right-3 wd-pt-4"></i>
           <div class="d-none d-xl-block">Profile</div></div>
-        </a>
+        </Link>
         <a className={`list-group-item
                        ${active === 'more'?'active':''}`}>
                          <div className = "wd-inline">

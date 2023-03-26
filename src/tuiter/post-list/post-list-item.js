@@ -31,7 +31,7 @@ const PostListItem = ({
     <span className="wd-user-handle">@{post.handle} &middot; {post.time}</span>
 <div className="wd-content-body" dangerouslySetInnerHTML={getContentLink(post.title)}>
 </div >
-        <div className="wd-image-content">
+        {/* <div className="wd-image-content">
         <img className="wd-content-image" src={post.image}
              alt="content image"/>
         {post.imageTitle === '' ? '': imageTitle(post.imageTitle)}
@@ -40,7 +40,7 @@ const PostListItem = ({
                 
         {post.imageLink === '' ? '' : imageLink(post.imageLink)}
         
-    </div>
+    </div> */}
     <div className="wd-icon">
             <a className="wd-post-icon" href="#">
             <i className="far fa-comment"></i>

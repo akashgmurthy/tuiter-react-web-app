@@ -130,7 +130,7 @@ html, body {
 }
 
 .wd-icon-text{
-    padding-left: 30px;
+    padding-left: 12px;
     color: #5a6067;
     font-size: 12px;
     font-family: sans-serif;
@@ -140,9 +140,9 @@ a.wd-post-icon { text-decoration: none;
     color: #5a6067}
 
 .wd-heart{
-    color: #5a6067;
+    color: red;
 }
-.fa-heart{color:pink;}
+.fa-heart{color:#5a6067;}
 
 .wd-post{
     border-bottom: #AAB8C2 solid thin;
@@ -236,18 +236,18 @@ a {
 }
 
 .wd-edit-profile {
-    background-color: black;
-    border: gray solid thin;
+    background-color: white !important;
+    border: gray solid !important; 
     float: right;
-    font-weight: bold;
-    color: white;
-}
+    font-weight: bold !important;
+    color: black;
+} 
 
 .wd-profile-save {
-    background-color: white;
-    color: black;
-    font-weight: bold;
-    border: gray solid thin;
+    background-color: black !important;
+    color: white !important;
+    font-weight: bold !important;
+    border: gray solid !important;
 }
 
 .profile-header {
@@ -274,15 +274,15 @@ a {
     font-weight: bold;
     font-family: Tahoma;
     font-size: 18px;
-    color: white;
+    color: black;
 }
 
 .wd-profile-bio {
-    color: white;
+    color: black;
 }
 
 .wd-follow-count {
-    color: white;
+    color: black;
     font-weight: bold;
     font-family: Tahoma;
 }

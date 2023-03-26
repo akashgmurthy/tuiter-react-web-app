@@ -1,0 +1,66 @@
+[
+    {
+      "_id": 234,
+      "topic": "Space",
+      "userName": "SpaceX",
+      "time": "2h",
+      "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+      "image": "/tuiter/images/spacex.png",
+      "liked": true,
+      "replies": 123,
+      "retuits": 432,
+      "likes": 2345,
+      "handle": "@spacex",
+      "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+    },
+
+    {
+        "_id": 456,
+        "topic": "Tesla",
+        "userName": "Tesla",
+        "time": "21h",
+        "title": "PSUs are fully assembled Supercharger sites—they come with stalls mounted on a concrete slab & electrical components prepared for grid connectivity",
+        "image": "/tuiter/images/teslol.png",
+        "liked": false,
+        "replies": 234,
+        "retuits": 543,
+        "likes": 3456,
+        "handle": "@tesla",
+        "tuit": "PSUs are fully assembled Supercharger sites—they come with stalls mounted on a concrete slab & electrical components prepared for grid connectivity. This helps us to get new sites up & running significantly faster—enabling construction to be completed within days, not weeks "
+      },
+
+      {
+        "_id": 7781,
+        "topic": "Elon",
+        "userName": "Elon Musk",
+        "time": "1d",
+        "title": "This platform is growing fast! Just exceeded 8 billion user-minutes per day … of the most influential, smartest people on Earth ",
+        "image": "/tuiter/images/elon.jpg",
+        "liked": true,
+        "replies": 2341,
+        "retuits": 5430,
+        "likes": 13456,
+        "handle": "@elonmusk",
+        "tuit": "This platform is growing fast! Just exceeded 8 billion user-minutes per day … of the most influential, smartest people on Earth  "
+      },
+      {
+        "_id": 7969,
+        "topic": "Nasa",
+        "userName": "NASA",
+        "time": "2d",
+        "title": "Newly-discovered asteroid 2023 DZ2 will sail safely past Earth today. Asteroids pass our planet safely all the time, but a close approach by one of this size (140–310 ft, or 43–95 m) happens only about once per decade. (There is no known threat for at least the next 100 years.)",
+        "image": "/tuiter/images/nasa.jpg",
+        "liked": true,
+        "replies": 646,
+        "retuits": 129,
+        "likes": 3348,
+        "handle": "@nasa",
+        "tuit": "Newly-discovered asteroid 2023 DZ2 will sail safely past Earth today. Asteroids pass our planet safely all the time, but a close approach by one of this size (140–310 ft, or 43–95 m) happens only about once per decade. (There is no known threat for at least the next 100 years.)"
+      }
+
+
+
+
+
+]
+

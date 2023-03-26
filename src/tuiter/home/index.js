@@ -1,5 +1,6 @@
 import React from "react";
-import PostList from "../post-list/post-list";
+import WhatsHappening from "./whats-happening";
+import TuitList from "../tuitlist";
 import "./index.css"
 
 
@@ -7,7 +8,12 @@ import "./index.css"
 
 const HomeComponent = () =>{
     return(
-        <PostList/>
+        <>
+     <h4>Home</h4>
+     <WhatsHappening/>
+     <TuitList/>
+   </>
+
     )
 }
 export default HomeComponent
