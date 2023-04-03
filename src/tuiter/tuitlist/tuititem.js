@@ -1,7 +1,8 @@
 import {useDispatch} from "react-redux";
 import React from "react";
 import TweetStats from "../tuitstats";
-import { deleteTuit } from "../tuits/tuits-reducer";
+// import { deleteTuit } from "../tuits/tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 
 
@@ -24,7 +25,7 @@ const TuitListItem = ({
 }) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-    dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
     return(
     <li className="wd-post">
@@ -36,7 +37,7 @@ const TuitListItem = ({
                 <div className="wd-content">
     
                     <span className="wd-user">
-                        {post.userName}
+                        {post.username}
                     </span>
                     <span><i className="fas fa-check-circle fa-xs wd-left-3"></i></span>
                     <span className="wd-user-handle">{post.handle} &middot; {post.time}</span>
